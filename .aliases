@@ -8,11 +8,19 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# Laravel
+alias art="php artisan"
+alias gen="php artisan clear-compiled && php artisan ide-helper:generate"
+alias models="php artisan clear-compiled && php artisan ide-helper:models"
+alias models="php artisan clear-compiled && php artisan ide-helper:meta"
+alias artclear="composer dumpautoload && art clear-compiled && art ide-helper:models && art route:clear && art cache:clear && art view:clear && art debugbar:clear && art config:clear"
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Projects"
+alias s="cd ~/Sites"
 alias g="git"
 alias h="history"
 alias j="jobs"

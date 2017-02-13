@@ -18,6 +18,10 @@
 	# Clone a repository including all submodules
 	c = clone --recursive
 
+	co = checkout
+
+	b = branch -vvv
+
 	# Commit all changes
 	ca = !git add -A && git commit -av
 
@@ -128,7 +132,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	#gpgsign = true
 
 [diff]
 
