@@ -33,9 +33,9 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install openssh
+brew install screen
 brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
