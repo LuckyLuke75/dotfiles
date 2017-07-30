@@ -16,7 +16,7 @@ alias models="php artisan clear-compiled && php artisan ide-helper:meta"
 alias artclear="composer dumpautoload && art clear-compiled && art ide-helper:models && art route:clear && art cache:clear && art view:clear && art debugbar:clear && art config:clear"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
